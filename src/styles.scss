@@ -1,4 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+//Bootstrap Core
+//____________________________________________________
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/utilities";
+
+//Bootstrap Components
+//____________________________________________________
+
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/card";
+
+
+//_____________________________________________________
+// My Core
+//____________________________________________________
+// @import "global/reset";
+// @import "mixin/rem";
+// @import "mixin/personal-mixin";
+
+
+//
+
+
