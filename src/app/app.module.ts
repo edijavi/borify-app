@@ -5,11 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
+import { ListadoComponent } from './components/listado/listado.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { ListComponent } from './components/list/list.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent
+    SideNavComponent,
+    ListadoComponent,
+    ContactoComponent,
+    ListComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
