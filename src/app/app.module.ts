@@ -7,13 +7,15 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ArtistInfoComponent } from './components/artist-info/artist-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
     ArtistComponent,
-    HeaderComponent
+    HeaderComponent,
+    ArtistInfoComponent
   ],
   imports: [
     BrowserModule,
