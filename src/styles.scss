@@ -25,8 +25,18 @@
 // @import "global/reset";
 // @import "mixin/rem";
 // @import "mixin/personal-mixin";
-@import "./styles/mixins/mixins";
+//GLOBAL
+@import "sass/global/base";
 
+
+//COMPONENTS
+@import "sass/components/artist-view";
+@import "sass/components/header";
+@import "sass/components/side-nav";
+@import "sass/components/btn";
+//MIXINS
+@import "sass/mixin/mixins";
+@import "sass/mixin/personal-mixin";
 
 //_____________________________________________________
 //Ionicons

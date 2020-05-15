@@ -1,0 +1,45 @@
+// SEARCH
+//---------
+
+
+
+
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border: 0;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  padding-left: 13px;
+
+  &::placeholder {
+    color: #fff;
+    font-size: 14px;
+  }
+  &:focus {
+    color: #fff;
+    border-bottom: 1px solid #b4cff2;
+  }
+}
+
+
+
+
+
+
