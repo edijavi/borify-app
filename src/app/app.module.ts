@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { ArtistComponent } from './components/artist/artist.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
-    ArtistComponent
+    ArtistComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
