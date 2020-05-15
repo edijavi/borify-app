@@ -1,9 +1,20 @@
 <svg width="0" height="0">
 
 <!-- SIDE-NAV -->
+  <symbol xmlns="http://www.w3.org/2000/svg" width="8" height="8"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  id="circle">
+  <circle cx="12" cy="12" r="10"></circle>
+  </symbol>
+
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -14,7 +25,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -26,7 +37,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -40,7 +51,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -52,7 +63,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -65,7 +76,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       stroke-width="2"
       stroke-linecap="round"
@@ -79,7 +90,7 @@
 <!-- PLAYER -->
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -91,7 +102,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -109,7 +120,7 @@
     id="repeat-outline">
     <title>ionicons-v5-c</title>
     <path
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -117,14 +128,14 @@
       d="M320 120l48 48-48 48">
     </path>
     <path d="M352 168H144a80.24 80.24 0 0 0-80 80v16m128 128l-48-48 48-48"
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="32">
     </path>
     <path d="M160 344h208a80.24 80.24 0 0 0 80-80v-16"
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -141,20 +152,20 @@
     id="shuffle-outline">
     <title>ionicons-v5-c</title>
     <path
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="32"
       d="M400 304l48 48-48 48m0-288l48 48-48 48M64 352h85.19a80 80 0 0 0 66.56-35.62L256 256">
     </path>
-    <path d="M64 160h85.19a80 80 0 0 1 66.56 35.62l80.5 120.76A80 80 0 0 0 362.81 352H416m0-192h-53.19a80 80 0 0 0-66.56 35.62L288 208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+    <path d="M64 160h85.19a80 80 0 0 1 66.56 35.62l80.5 120.76A80 80 0 0 0 362.81 352H416m0-192h-53.19a80 80 0 0 0-66.56 35.62L288 208" fill="currentColor" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
   </symbol>
 
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -166,7 +177,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -179,7 +190,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -191,7 +202,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -203,7 +214,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
@@ -215,7 +226,7 @@
 
   <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentColor"
     stroke="currentColor"
     stroke-width="2"
     stroke-linecap="round"
