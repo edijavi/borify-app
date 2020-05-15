@@ -1,0 +1,29 @@
+// SEARCH
+//---------
+
+@import "../../../styles/mixins/mixins";
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon {
+  background-color: transparent;
+  border: #111;
+  color: none;
+  outline: none;
+}
+
+.btn-icon:hover {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  fill: none;
+  outline: none;
+}
+svg {
+  width: rem(20px);
+  height: rem(20px);
+}
