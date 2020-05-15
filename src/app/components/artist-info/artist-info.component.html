@@ -1,1 +1,45 @@
-<p>artist-info works!</p>
+<nav class="navbar-bottom">
+  <div class="player">
+      <div class="player__choosen">
+          <img src="../../../assets/images/wallpaper_NatosyWaor.jpg" width="50" class="player__choosen--img">
+          <span class="player__choosen--title"> Botella para dos</span><br>
+          <small>Natos y waor</small>
+      </div>
+      <div class="block-controls">
+          <div class="block-controls__elements">
+              <button>
+                  <img src="img/shuffle.png" class="block-controls__icons block-controls__icons--disabled"></button>
+              <button id="prev"><img src="img/next_2.png" class="block-controls__icons block-controls__icons--disabled"></button>
+              <button id="play" class="play"><i class="fas fa-play-circle"></i></button>
+              <button id="pause" class="pause hide"><i class="fas fa-pause-circle"></i></button>
+
+              <button id="next"><img src="img/next.png" class="block-controls__icons block-controls__icons--disabled"></button>
+              <button id="bucle"><img src="img/repeat.png" class="block-controls__icons block-controls__icons--enabled"></button>
+          </div>
+          <div class="block-controls__volum" id="volumP">
+              <i class="fa fa-volume-up"></i>
+              <progress max="100" value="91" class="block-controls__sound"></progress>
+          </div>
+          <div class="block-controls__volum" id="volumL">
+          <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="block-controls__duration">
+              <span>2:54</span>
+              <audio id="audio" src="">
+                  </audio>
+              <progress id="range" max="100" value="91" class="block-controls__long"></progress>
+              <span>4:03</span>
+          </div>
+          <div class="block-controls__adds">
+              <button><img src="img/podcast.png"
+                      class="block-controls__icons block-controls__icons--disabled"></button>
+              <button class="block-controls__icons block-controls__icons--disabled"><i
+                      class="fas fa-list"></i></button>
+
+          </div>
+      </div>
+
+
+  </div>
+
+</nav>

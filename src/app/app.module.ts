@@ -8,6 +8,7 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ArtistInfoComponent } from './components/artist-info/artist-info.component';
+import { PlayerAudioComponent } from './components/player-audio/player-audio.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ArtistInfoComponent } from './components/artist-info/artist-info.compon
     SideNavComponent,
     ArtistComponent,
     HeaderComponent,
-    ArtistInfoComponent
+    ArtistInfoComponent,
+    PlayerAudioComponent
   ],
   imports: [
     BrowserModule,

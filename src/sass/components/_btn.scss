@@ -7,6 +7,7 @@
   background-color: transparent;
   border: 0;
   color: #fff;
+  fill: none;
   outline: none;
 }
 
@@ -30,7 +31,7 @@
   padding: 8px 30px;
 }
 
-.btn-icon--circle:hover {
+.btn-icon--circle:hover  {
   background-color: transparent;
   border-radius: 50px;
   border: 1px solid #b4cff2;

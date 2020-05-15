@@ -1,13 +1,16 @@
 <div class="artist-view">
   <img class="background" src="../../../assets/images/wallpaper_NatosyWaor.jpg" alt="">
   <div class="container-artist">
-    <app-header class="header"></app-header>
-    <button class="btn-icon--circle">
-      <svg >
-        <use xlink:href="../../assets/sprite.svg#star"></use>
-      </svg>
-      Save to My stars
-    </button>
-    <h1 class="title">Natos y waor</h1>
+    <app-header class="container-header"></app-header>
+    <div class="artist-info">
+      <button class="btn-icon--circle">
+        <svg class="btn-icon" id="basic-addon1">
+          <use xlink:href="../../assets/sprite.svg#star"></use>
+        </svg>
+        Save to My stars
+      </button>
+      <h1 class="title">Natos y waor</h1>
+      <app-artist-info class="container"></app-artist-info>
+    </div>
   </div>
 </div>
