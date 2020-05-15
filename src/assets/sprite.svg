@@ -1,0 +1,226 @@
+<svg width="0" height="0">
+
+<!-- SIDE-NAV -->
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="plus">
+    <path d="M12 5v14m-7-7h14"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="star">
+    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="user-circle">
+    <path d="M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3"></path>
+    <circle cx="12" cy="10" r="3"></circle>
+    <circle cx="12" cy="12" r="10"></circle>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="menu">
+    <path d="M3 12h18M3 6h18M3 18h18"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="more-horizontal">
+    <circle cx="12" cy="12" r="1"></circle>
+    <circle cx="19" cy="12" r="1"></circle>
+    <circle cx="5" cy="12" r="1"></circle>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      id="search">
+    <circle cx="11" cy="11" r="8"></circle>
+    <path d="M21 21l-4.35-4.35"></path>
+  </symbol>
+
+
+<!-- PLAYER -->
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="pause">
+    <path d="M6 4h4v16H6zm8 0h4v16h-4z"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="play">
+    <path d="M5 3l14 9-14 9V3z"></path>
+  </symbol>
+
+
+
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 512 512"
+    id="repeat-outline">
+    <title>ionicons-v5-c</title>
+    <path
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="32"
+      d="M320 120l48 48-48 48">
+    </path>
+    <path d="M352 168H144a80.24 80.24 0 0 0-80 80v16m128 128l-48-48 48-48"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="32">
+    </path>
+    <path d="M160 344h208a80.24 80.24 0 0 0 80-80v-16"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="32">
+    </path>
+  </symbol>
+
+
+
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 512 512"
+    id="shuffle-outline">
+    <title>ionicons-v5-c</title>
+    <path
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="32"
+      d="M400 304l48 48-48 48m0-288l48 48-48 48M64 352h85.19a80 80 0 0 0 66.56-35.62L256 256">
+    </path>
+    <path d="M64 160h85.19a80 80 0 0 1 66.56 35.62l80.5 120.76A80 80 0 0 0 362.81 352H416m0-192h-53.19a80 80 0 0 0-66.56 35.62L288 208" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="skip-back">
+    <path d="M19 20L9 12l10-8v16zM5 19V5"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="skip-forward">
+    <path d="M5 4l10 8-10 8V4zm14 1v14"></path>
+  </symbol>
+
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="volume">
+    <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="volume-1">
+    <path d="M11 5L6 9H2v6h4l5 4V5zm4.54 3.46a5 5 0 0 1 0 7.07"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="volume-2">
+    <path d="M11 5L6 9H2v6h4l5 4V5zm8.07-.07a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+  </symbol>
+
+
+  <symbol xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    id="volume-x">
+    <path d="M11 5L6 9H2v6h4l5 4zm11 4l-6 6m0-6l6 6"></path>
+  </symbol>
+</svg>
