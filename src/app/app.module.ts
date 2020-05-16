@@ -11,6 +11,7 @@ import { ArtistControlComponent } from './components/artist-control/artist-contr
 import { PlayerAudioComponent } from './components/player-audio/player-audio.component';
 import { ListAlbumsComponent } from './components/list-albums/list-albums.component';
 import { CardAlbumComponent } from './components/card-album/card-album.component';
+import { ListSongsComponent } from './components/list-songs/list-songs.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CardAlbumComponent } from './components/card-album/card-album.component
     ArtistControlComponent,
     PlayerAudioComponent,
     ListAlbumsComponent,
-    CardAlbumComponent
+    CardAlbumComponent,
+    ListSongsComponent
   ],
   imports: [
     BrowserModule,
