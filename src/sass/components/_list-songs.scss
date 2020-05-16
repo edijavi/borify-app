@@ -1,0 +1,42 @@
+
+
+.container-songs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: rem(422px);
+  height: 100%;
+  margin: 10px 25px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  &:hover {
+    background-color: #181e2860;
+  }
+
+  &__title{
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  &__album {
+    font-size: 13px;
+  }
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

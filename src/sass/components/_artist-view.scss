@@ -3,17 +3,16 @@
 
 
 .artist-view {
-  right: 0;
-  z-index: 10;
+  z-index: 100;
   display: flex;
   flex-wrap: wrap;
-  width: 88%;
-  margin-left: 222px;
   height: 100%;
-
+  width: 100%;
+  padding-left: 222px;
 }
 
 .container-artist {
+  display: flex;
   width: 100%;
   margin: 10px;
   padding: 17px 30px;
@@ -21,7 +20,8 @@
 
 .artist-info {
   position: relative;
-  width: 65%;
+  width: 100%;
+  padding: 110px 0px 0px 84px;
 }
 
 
