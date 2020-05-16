@@ -1,6 +1,5 @@
 
 .container-controls {
-
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -12,10 +11,10 @@
 }
 
 .container-albums {
+  overflow-x: none;
   display: flex;
   flex-wrap: wrap;
   margin-left: 12px;
-
 }
 
 .card {
