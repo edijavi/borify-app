@@ -5,8 +5,8 @@
   // grid-template-rows: auto;
   // grid-gap: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-gap: 20px;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -16,8 +16,16 @@
 
 
 .card {
-
-  border-radius: none;
+  width: rem(300px);
   background-color: transparent;
+  border-radius: none;
+  cursor: pointer;
+}
+
+.card-body {
+  padding-left: 0;
+  font-size: 14;
   color: #fff;
 }
+
+
