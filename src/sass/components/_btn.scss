@@ -61,9 +61,17 @@ button:not(:disabled){
 }
 
 .btn-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: transparent;
   border: 0;
   outline: none;
+}
+
+.btn-avatar p {
+  margin: 0;
+  padding: 0px 5px;
 }
 
 .btn-image {
