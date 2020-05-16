@@ -1,0 +1,40 @@
+.container-albums {
+  // overflow-y: scoll;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  // grid-template-rows: auto;
+  // grid-gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 16px 11px;
+}
+
+
+
+.card {
+  width: rem(290px);
+  background-color: transparent;
+  border-radius: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.card:hover img {
+  border: 1px solid #fff;
+}
+
+.card:hover h5, span {
+  color: #b4cff2;
+}
+
+.card-body {
+  padding-left: 0;
+  font-size: 14;
+  color: #fff;
+}
+
+

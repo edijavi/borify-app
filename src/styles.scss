@@ -1,3 +1,10 @@
+
+
+//MIXINS
+@import "sass/mixin/mixins";
+@import "sass/mixin/personal-mixin";
+
+
 //Bootstrap Core
 //____________________________________________________
 
@@ -27,6 +34,22 @@
 // @import "global/reset";
 // @import "mixin/rem";
 // @import "mixin/personal-mixin";
+//GLOBAL
+@import "sass/global/base";
+
+
+
+
+//COMPONENTS
+@import "sass/components/artist-view";
+@import "sass/components/artist-control";
+@import "sass/components/header";
+@import "sass/components/side-nav";
+@import "sass/components/btn";
+@import "sass/components/list-albums";
+@import "sass/components/player";
+@import "sass/components/list-songs";
+
 
 
 

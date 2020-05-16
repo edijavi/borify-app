@@ -1,0 +1,82 @@
+
+.btn {
+  font-size: 14px;
+  color:#fff;
+  outline: none;
+  margin-right: 45px;
+}
+
+.btn:hover {
+  font-size: 14px;
+  color:#b4cff2;
+  outline: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #3191fb;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  fill: none;
+  outline: none;
+
+}
+
+.btn-icon:hover {
+  background-color: transparent;
+  border: 0;
+  color: #b4cff2;
+  stroke: #b4cff2;
+  fill: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-icon--circle {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  outline: none;
+  padding: 8px 30px;
+}
+
+.btn-icon--circle:hover  {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #b4cff2;
+  color: #b4cff2;
+  stroke: #b4cff2;
+  fill: none;
+  outline: none;
+  padding: 8px 30px;
+}
+
+button:not(:disabled){
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.btn-avatar p {
+  margin: 0;
+  padding: 0px 5px;
+}
+
+.btn-image {
+  border-radius: 50px;
+  border: 1px solid #fff;
+}

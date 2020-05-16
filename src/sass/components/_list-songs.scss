@@ -1,0 +1,55 @@
+
+.container-display{
+  display: none;
+}
+
+.container-songs {
+  position: relative;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  width: rem(422px);
+  height: 100%;
+  margin: 10px 35px;
+
+}
+
+.container-title {
+  padding: 0px 20px;
+  font-size: 14px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  transition: 0.15s all;
+
+
+
+  &:hover {
+    background-color: #181e2895;
+  }
+
+  &__title{
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  &__album {
+    font-size: 13px;
+  }
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
