@@ -1,12 +1,14 @@
 
 
 .container-songs {
-  position: relative;
+  position: fixed;
+  z-index: 200;
   display: flex;
   flex-direction: column;
   width: rem(422px);
   height: 100%;
   margin: 10px 25px;
+
 }
 
 .container-title {
