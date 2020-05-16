@@ -1,1 +1,64 @@
-<p>player-audio works!</p>
+<nav class="navbar-bottom">
+  <div class="player">
+      <div class="player__choosen">
+          <img src="../../../assets/images/wallpaper_NatosyWaor.jpg" width="50" class="player__choosen--img">
+          <span class="player__choosen--title"> Botella para dos</span><br>
+          <small>Natos y waor</small>
+      </div>
+      <div class="block-controls">
+          <div class="block-controls__elements">
+              <button class="btn-icon">
+                <svg >
+                  <use xlink:href="../../assets/sprite.svg#repeat-outline"></use>
+                </svg>
+              </button>
+              <button class="btn-icon">
+                <svg >
+                  <use xlink:href="../../assets/sprite.svg#skip-back"></use>
+                </svg>
+              </button>
+              <button class="btn-icon">
+                <svg >
+                  <use xlink:href="../../assets/sprite.svg#pause"></use>
+                </svg>
+              </button>
+              <button class="btn-icon">
+                <svg >
+                  <use xlink:href="../../assets/sprite.svg#skip-forward"></use>
+                </svg>
+              </button>
+              <button class="btn-icon">
+                <svg>
+                  <use xlink:href="../../assets/sprite.svg#shuffle-outline"></use>
+                </svg>
+              </button>
+          </div>
+          <div class="block-controls__volum" id="volumP">
+              <svg class="btn-icon">
+                <use xlink:href="../../assets/sprite.svg#volume+2"></use>
+              </svg>
+              <progress max="100" value="91" class="block-controls__sound"></progress>
+          </div>
+          <div class="block-controls__volum" id="volumL">
+          <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="block-controls__duration">
+              <span>2:54</span>
+              <audio id="audio" src="">
+                  </audio>
+              <progress id="range" max="100" value="91" class="block-controls__long"></progress>
+              <span>4:03</span>
+          </div>
+          <div class="block-controls__adds">
+              <button class="btn-icon">
+                <svg>
+                  <use xlink:href="../../assets/sprite.svg#menu"></use>
+                </svg>
+              </button>
+          </div>
+      </div>
+
+
+  </div>
+
+</nav>
