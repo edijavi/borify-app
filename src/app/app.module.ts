@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ArtistControlComponent } from './components/artist-control/artist-control.component';
 import { PlayerAudioComponent } from './components/player-audio/player-audio.component';
 import { ListAlbumsComponent } from './components/list-albums/list-albums.component';
+import { CardAlbumComponent } from './components/card-album/card-album.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ListAlbumsComponent } from './components/list-albums/list-albums.compon
     HeaderComponent,
     ArtistControlComponent,
     PlayerAudioComponent,
-    ListAlbumsComponent
+    ListAlbumsComponent,
+    CardAlbumComponent
   ],
   imports: [
     BrowserModule,
