@@ -20,6 +20,15 @@
   background-color: transparent;
   border-radius: none;
   cursor: pointer;
+  transition: all 0.1s;
+}
+
+.card:hover img {
+  border: 1px solid #fff;
+}
+
+.card:hover h5, span {
+  color: #b4cff2;
 }
 
 .card-body {
