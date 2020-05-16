@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardAlbumComponent implements OnInit {
 
+  Albums: Array<any> = [];
+
   constructor() { }
 
   ngOnInit(): void {
