@@ -6,13 +6,14 @@
   right: 0;
   z-index: 10;
   display: flex;
-  width: 88%;
+  flex-wrap: wrap;
+  width: 100%;
   margin-left: 222px;
   height: 100%;
+
 }
 
 .container-artist {
-  position: relative;
   width: 100%;
   margin: 10px;
   padding: 17px 30px;
@@ -21,7 +22,6 @@
 .artist-info {
   position: relative;
   width: 70%;
-  padding: 100px 30px 17px 84px;
 }
 
 
