@@ -1,5 +1,18 @@
 
+.btn {
+  font-size: 14px;
+  color:#fff;
+  outline: none;
+  margin-right: 45px;
+}
 
+.btn:hover {
+  font-size: 14px;
+  color:#b4cff2;
+  outline: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #3191fb;
+}
 
 .btn-icon {
   display: flex;

@@ -1,0 +1,28 @@
+
+.container-controls {
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.list-btn {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.container-albums {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12px;
+
+}
+
+.card {
+  width: rem(170px);
+  height: rem(220px);
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+  margin: 20px 20px 20px 0px;
+}

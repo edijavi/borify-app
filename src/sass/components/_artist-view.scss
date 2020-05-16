@@ -3,8 +3,11 @@
 
 
 .artist-view {
+  right: 0;
+  z-index: 10;
   display: flex;
-  width: 100%;
+  width: 88%;
+  margin-left: 222px;
   height: 100%;
 }
 

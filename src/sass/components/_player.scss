@@ -3,6 +3,7 @@ PLAYER FOOTER
 -------------- */
 
 .navbar-bottom {
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 5px 10px;
@@ -16,6 +17,8 @@ PLAYER FOOTER
   align-items: center;
   flex-direction: row;
   max-width: 100%;
+  padding: 22px;
+  background-color: rgba(110, 110, 110, 0.6);
 }
 
 .player__choosen {
