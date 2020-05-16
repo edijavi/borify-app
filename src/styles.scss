@@ -1,3 +1,10 @@
+
+
+//MIXINS
+@import "sass/mixin/mixins";
+@import "sass/mixin/personal-mixin";
+
+
 //Bootstrap Core
 //____________________________________________________
 
@@ -29,6 +36,8 @@
 @import "sass/global/base";
 
 
+
+
 //COMPONENTS
 @import "sass/components/artist-view";
 @import "sass/components/artist-control";
@@ -38,9 +47,7 @@
 @import "sass/components/list-albums";
 @import "sass/components/player";
 
-//MIXINS
-@import "sass/mixin/mixins";
-@import "sass/mixin/personal-mixin";
+
 
 //_____________________________________________________
 //Ionicons
