@@ -43,7 +43,7 @@ export class CardAlbumComponent implements OnInit {
     {
       title: "Barras Bravas",
       year: "2017",
-      image: "../../../assets/images/barras-natos.jpg",
+      image: "../../../assets/images/cover_NatosyWaor_03.jpeg",
       songs: [
                 "assets/music/botella-para-dos.mp3",
                 "assets/music/no-nos-da-miedo.mp3",
