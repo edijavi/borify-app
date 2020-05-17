@@ -17,9 +17,14 @@
                   <use xlink:href="../../assets/sprite.svg#skip-back"></use>
                 </svg>
               </button>
-              <button class="btn-icon">
-                <svg >
+              <button *ngIf="playShow" (click)="playPause()" class="btn-icon">
+                <svg>
                   <use xlink:href="../../assets/sprite.svg#pause"></use>
+                </svg>
+              </button>
+              <button *ngIf="pauseShow" (click)="playPause()" class="btn-icon">
+                <svg>
+                  <use xlink:href="../../assets/sprite.svg#play"></use>
                 </svg>
               </button>
               <button class="btn-icon">
@@ -40,7 +45,7 @@
               <progress max="100" value="91" class="block-controls__sound"></progress>
           </div>
           <div class="block-controls__volum" id="volumL">
-          <i class="fa fa-volume-up"></i>
+            <i class="fa fa-volume-up"></i>
           </div>
           <div class="block-controls__duration">
               <span>2:54</span>

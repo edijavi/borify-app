@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from './services/user.service';
 import { User } from './models/user';
-import { Hash } from 'crypto';
+
+// import { Hash } from 'crypto';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +31,7 @@ export class AppComponent implements OnInit {
     //Conseguir los datos del usuario identificado
     this._userService.singUp(this.user).subscribe(
       response => {
-        let identity = response.user;
+        let identity = response;
         this.identity = identity;
 
         if (!this.identity._id) {
@@ -39,7 +40,7 @@ export class AppComponent implements OnInit {
           //Crear elemento en el localstorage para tener al usuario en sesión
           this._userService.singUp(this.user, 'true').subscribe(
             response => {
-              let token = response.token;
+              let token = response;
               this.token = token;
 
               if (this.token.length <= 0) {
