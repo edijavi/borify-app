@@ -13,6 +13,6 @@
       <app-artist-control></app-artist-control>
       <app-list-albums></app-list-albums>
     </section>
-    <app-list-songs ></app-list-songs>
+    <app-list-songs *ngIf="showList"  (click)="showPlayList"></app-list-songs>
   </div>
 </div>
