@@ -29,23 +29,26 @@
   align-items: center;
 }
 
-.form-control {
+.form-control--artist {
   border: 0;
   color: #fff;
   background-color: transparent;
   outline: none;
   padding-left: 13px;
-
-  &::placeholder {
-    color: #fff;
-    font-size: 14px;
-  }
-  &:focus {
-    color: #fff;
-    border-bottom: 1px solid #b4cff2;
-  }
 }
 
+.form-control--artist::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-control--artist:focus {
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid #b4cff2;
+  outline: none;
+  box-shadow: none;
+}
 
 
 

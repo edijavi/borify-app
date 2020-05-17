@@ -1,7 +1,7 @@
 
 
 //MIXINS
-@import "sass/mixin/mixins";
+@import "sass/mixin/rem";
 @import "sass/mixin/personal-mixin";
 
 
@@ -17,7 +17,8 @@
 
 //Bootstrap Components
 //____________________________________________________
-@import "../node_modules/bootstrap/scss/forms";
+
+// @import "../node_modules/bootstrap/scss/forms";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/bootstrap/scss/modal";
@@ -31,13 +32,9 @@
 //_____________________________________________________
 // My Core
 //____________________________________________________
-// @import "global/reset";
-// @import "mixin/rem";
-// @import "mixin/personal-mixin";
+
 //GLOBAL
 @import "sass/global/base";
-
-
 
 
 //COMPONENTS
