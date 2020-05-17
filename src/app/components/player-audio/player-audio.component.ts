@@ -11,55 +11,77 @@ export class PlayerAudioComponent implements OnInit {
   playShow: boolean = false;
   pauseShow: boolean = true;
 
-  audio = new Audio('assets/music/queen/dont-stop-me-now.mp3');
+  audio = new Audio('assets/music/botella-para-dos.mp3');
 
-  songs = [
-    {
-
-      "audio": "asset/music/queen/BohemianRhapsody.mp3",
-
-    },
-    {
-
-      "audio": "asset/music/queen/BohemianRhapsody.mp3",
-
-    }
-
-  ];
+  songs =
+    [
+      "assets/music/botella-para-dos.mp3",
+      "assets/music/no-nos-da-miedo.mp3"
+      // {song: 'assets/music/no-nos-da-mierdo.mp3'},
+      // {song: 'assets/music/queen/dont-stop-me-now.mp3'}
+    ]
 
   constructor() { }
 
   ngOnInit(): void {
 
   }
+
+
+
   playPause() {
-		if ( this.audio.paused || this.audio.ended ) {
-			if ( this.audio.ended ) { this.audio.currentTime = 0; }
-      this.audio.play();
-      this.playShow = true;
-      this.pauseShow = false;
-		}
-		else {
+    let id;
+    this.songs.forEach(song => {
+      debugger
+      const audio = new Audio(song);
+
+    });
+    if (!this.audio.paused && !this.audio.ended) {
       this.audio.pause();
+      this.audio.currentTime = 0;
       this.playShow = false;
       this.pauseShow = true;
     }
-  }
-
-  play() {
-    debugger
-    console.log('!!  PLAY  !!');
-
-    this.audio.play();
-    debugger
+    else {
+      this.playShow = true;
+      this.pauseShow = false;
+      this.audio.play();
+    }
 
   }
 
-  pause() {
-    debugger
-    console.log('!!  PAUSE  !!');
+
+
+  // Función que simula el comportamiento de stop (no existe nativamente), pausa el audio y fija el currentTime al inicio.
+  audioStop() {
     this.audio.pause();
+    this.audio.currentTime = 0;
+  }
+  // Función que sube el volumen del elemento audio.
+  audioVolume(event) {
+    debugger
+      this.audio.volume = event.target.value;
+      console.log(this.audio.volume);
 
+    if (this.audio.volume < 1) {
+      this.audio.volume = this.audio.volume + 0.1;
+    }
+  }
+  // Función que baja el volume del elemento audio.
+  audioturnDownVolume() {
+    if (this.audio.volume > 0) {
+      this.audio.volume = this.audio.volume - 0.1;
+    }
   }
 
+  mutedVolume() {
+    if (!this.audio.muted) {
+      debugger
+      return this.audio.muted = true;
+
+    } else {
+      debugger
+      return this.audio.muted = false
+    }
+  }
 }

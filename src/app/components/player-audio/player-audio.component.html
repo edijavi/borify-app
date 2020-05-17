@@ -4,6 +4,7 @@
           <img src="../../../assets/images/wallpaper_NatosyWaor.jpg" width="50" class="player__choosen--img">
           <span class="player__choosen--title"> Botella para dos</span><br>
           <small>Natos y waor</small>
+          <audio src=""></audio>
       </div>
       <div class="block-controls">
           <div class="block-controls__elements">
@@ -38,11 +39,13 @@
                 </svg>
               </button>
           </div>
-          <div class="block-controls__volum" id="volumP">
+          <div  class="block-controls__volum" id="volumP">
+            <button  (click)="mutedVolume()" class="btn-icon">
               <svg class="btn-icon">
                 <use xlink:href="../../assets/sprite.svg#volume+2"></use>
               </svg>
-              <progress max="100" value="91" class="block-controls__sound"></progress>
+            </button>
+            <input (click)="audioVolume()" type="range" max="100" value="50" class="block-controls__sound">
           </div>
           <div class="block-controls__volum" id="volumL">
             <i class="fa fa-volume-up"></i>
