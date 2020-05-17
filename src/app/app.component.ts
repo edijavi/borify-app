@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from './services/user.service';
 import { User } from './models/user';
-<<<<<<< HEAD
-
-// import { Hash } from 'crypto';
-=======
->>>>>>> master
 
 @Component({
   selector: 'app-root',
@@ -45,14 +40,9 @@ export class AppComponent implements OnInit {
     let dataRegister:any = {};
     let dataError:any = {};
     this._userService.singUp(this.user).subscribe(
-<<<<<<< HEAD
-      response => {
-        let identity = response;
-=======
       (res) => {
         dataRegister = res;
         let identity = dataRegister.user;
->>>>>>> master
         this.identity = identity;
 
         if (!this.identity._id) {
@@ -65,14 +55,9 @@ export class AppComponent implements OnInit {
           let dataRegister:any = {};
           let dataError:any = {};
           this._userService.singUp(this.user, 'true').subscribe(
-<<<<<<< HEAD
-            response => {
-              let token = response;
-=======
             (res) => {
               dataRegister = res;
               let token = dataRegister.token;
->>>>>>> master
               this.token = token;
 
               if (this.token.length <= 0) {
