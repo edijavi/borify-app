@@ -4,18 +4,17 @@ import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
 import { Global } from './global';
 
-@Injectable({providedIn: 'root'})
+@Injectable()
 
 export class UserService {
-
   public url: string;
+  public identity;
+  public  token;
 
-  // tslint:disable-next-line:variable-name
   constructor(private _http: HttpClient) {
     this.url = Global.url;
   }
 
-  // tslint:disable-next-line:variable-name
   singUp(user_to_login, gethash = null) {
 
     if (gethash != null) {
@@ -23,10 +22,39 @@ export class UserService {
     }
     let json = JSON.stringify(user_to_login);
     let params = json;
+    let headers = new HttpHeaders({'Content-Type':'application/json'});
 
-    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    return this._http.post(this.url + '/login', params, {headers: headers}).pipe(map((res: HttpResponse<any>) => res));
+  }
 
-    return this._http.post(this.url + '/login', params, {headers: headers}).pipe(map(res => res));
+  register(userToRegister) {
+    let json = JSON.stringify(userToRegister);
+    let params = json;
+    let headers = new HttpHeaders({'Content-Type':'application/json'});
+
+    return this._http.post(this.url + '/register', params, {headers: headers}).pipe(map((res: HttpResponse<any>) => res));
+  }
+
+  getIndentity(){
+    let identity = JSON.parse(localStorage.getItem('identity'));
+
+    if(identity != 'undefined'){
+      this.identity = identity;
+    } else {
+      this.identity = null;
+    }
+    return this.identity;
+  }
+
+
+  getToken() {
+    let token = localStorage.getItem('token');
+    if (token != 'undefined') {
+      this.token = token;
+    } else {
+      this.token = null;
+    }
+    return this.token;
   }
 }
 
