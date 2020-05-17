@@ -1,5 +1,15 @@
 
-<div *ngIf="identity" class="navigation col-lg-1">
+
+<div>
+  <app-side-nav></app-side-nav>
+  <app-artist class="container-column"></app-artist>
+  <app-player-audio class="navbar-bottom"></app-player-audio>
+</div>
+<router-outlet></router-outlet>
+
+
+
+<!-- <div *ngIf="identity" class="navigation col-lg-1">
   <h1>{{title}}</h1>
 </div>
 
@@ -55,11 +65,5 @@
       <input type="submit" value="Register" class="btn btn-primary">
     </form>
   </div>
-</div>
+</div> -->
 
-<div class="container">
-  <app-side-nav></app-side-nav>
-  <app-artist class="container-column"></app-artist>
-  <app-player-audio class="navbar-bottom"></app-player-audio>
-</div>
-<router-outlet></router-outlet>
