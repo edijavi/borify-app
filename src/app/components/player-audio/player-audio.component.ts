@@ -60,7 +60,7 @@ export class PlayerAudioComponent implements OnInit {
   // Función que sube el volumen del elemento audio.
   audioVolume(event) {
     debugger
-      this.audio.volume = event.target.value;
+      this.audio.volume = (event.target.value / 100);
       console.log(this.audio.volume);
 
     if (this.audio.volume < 1) {

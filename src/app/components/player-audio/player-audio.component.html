@@ -45,7 +45,7 @@
                 <use xlink:href="../../assets/sprite.svg#volume+2"></use>
               </svg>
             </button>
-            <input (click)="audioVolume()" type="range" max="100" value="50" class="block-controls__sound">
+            <input (change)="audioVolume($event)" type="range" max="100" value="50" class="block-controls__sound">
           </div>
           <div class="block-controls__volum" id="volumL">
             <i class="fa fa-volume-up"></i>
