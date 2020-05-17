@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListSongsComponent implements OnInit {
 
+
+  showList:boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  showPlayList(){
+    this.showList= true
+  }
 }
