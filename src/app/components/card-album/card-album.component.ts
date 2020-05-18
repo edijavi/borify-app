@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
+import { ArtistsService } from 'src/app/services/artists.service';
 
 @Component({
   selector: 'app-card-album',
@@ -62,7 +63,7 @@ export class CardAlbumComponent implements OnInit {
     },
     {
       title: "Caminare",
-      year: "2016",
+      year: "2015",
       image: "../../../assets/images/cover_NatosyWaor_01.jpeg",
       songs: [
                 "assets/music/botella-para-dos.mp3",
@@ -74,12 +75,14 @@ export class CardAlbumComponent implements OnInit {
 
   ];
 
-  constructor() { }
+  constructor(private artist: ArtistsService) { }
 
   ngOnInit(): void {
+    this.artist.getArtist().subscribe(response =>{
+      debugger
+      this.listAlbums = response;
+    });
   }
 
-  showPlayList() {
 
-  }
 }

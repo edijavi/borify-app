@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-list-songs',
@@ -15,6 +15,6 @@ export class ListSongsComponent implements OnInit {
   ngOnInit(): void {
   }
   showPlayList(){
-    this.showList= true
+    this.showList = true;
   }
 }

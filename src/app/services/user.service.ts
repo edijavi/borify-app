@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse, HttpHeaders} from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
-import { Global } from './global';
+import { environment } from 'src/environments/environment';
+
 
 @Injectable()
 
@@ -12,7 +13,7 @@ export class UserService {
   public  token;
 
   constructor(private _http: HttpClient) {
-    this.url = Global.url;
+    this.url = environment.apiBack;
   }
 
   singUp(user_to_login, gethash = null) {
