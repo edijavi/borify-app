@@ -1,0 +1,53 @@
+<!--<div *ngIf="identity" class="navigation col-lg-1">
+  <h1>{{title}}</h1>
+  <span> {{identity.name}} {{identity.surname}}</span>
+  <button class="btn btn-warning" (click)="logout()">Log-out</button>
+</div>-->
+<!--<div *ngIf="identity" class="central col-lg-11">
+  <p>You are logged!</p>
+</div>-->
+<div class="all" *ngIf="!identity">
+  <div class="borify">
+    <div class="logo">
+      <img src="../../../assets/images/borify.png" alt="" />
+    </div>
+    <div *ngIf="errorMessage">
+      <div class="alert alert-info" role="alert">
+        <strong>Ups...</strong>
+        {{errorMessage}}
+      </div>
+    </div>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()" class="inputlar">
+      <p>
+        <input type="email" #email="ngModel" name="email" [(ngModel)]="user.email" placeholder="email" required/>
+        <span *ngIf="!email.valid && email.touched">Email is required</span>
+      </p>
+      <p>
+        <input type="password" #password="ngModel" name="password" [(ngModel)]="user.password" placeholder="password" required/>
+      </p>
+      <div class="buttons">
+        <button type="submit">Go In</button>
+      </div>
+    </form>
+    <div class="oryantal"></div>
+    <div class="kayit">
+      Do you wanna join us?
+      <a class="link" href="/signup">Register
+      </a>
+    </div>
+  </div>
+  <div class="borify pad">
+    <a class="link" href="https://github.com/edijavi/borify-app.git">Powered by David and Edison</a>
+  </div>
+</div>
+
+<div *ngIf="identity" >
+  <app-side-nav></app-side-nav>
+  <app-artist class="container-column"></app-artist>
+  <app-player-audio class="navbar-bottom"></app-player-audio>
+</div>
+<router-outlet></router-outlet>
+
+
+
+
