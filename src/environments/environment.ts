@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiBack: 'http://localhost:3977/api'
+  apiBack: 'http://localhost:3977/api',
+  ip: '127.0.0.1'
 };
 
 /*

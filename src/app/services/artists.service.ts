@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 import { Observable } from 'rxjs/internal/Observable';
 
@@ -14,7 +14,7 @@ export class ArtistsService {
 
   getArtist (): Observable <any> {
       debugger
-      return this.http.get(`${environment.apiBack}/artists`)
+      return this.http.get(`${environment.apiBack}/album`);
     }
 
 }
