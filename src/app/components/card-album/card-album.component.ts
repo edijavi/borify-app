@@ -63,7 +63,7 @@ export class CardAlbumComponent implements OnInit {
     },
     {
       title: "Caminare",
-      year: "2016",
+      year: "2015",
       image: "../../../assets/images/cover_NatosyWaor_01.jpeg",
       songs: [
                 "assets/music/botella-para-dos.mp3",

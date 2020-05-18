@@ -87,3 +87,18 @@ button:not(:disabled){
   border-radius: 50px;
   border: 1px solid #fff;
 }
+
+.btn-icon-play {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.btn-icon-play:hover {
+  border-radius: 50%;
+  border: 1px solid #b4cff2;
+  padding: 5px;
+}
+
+
+
