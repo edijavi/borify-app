@@ -1,6 +1,6 @@
 <div data-target="#navbar-example3"  class="container-albums">
 
-  <a *ngFor="let item of listAlbums" (click)="showPlayList" class="card">
+  <a *ngFor="let item of listAlbums" class="card">
     <img [src]="item.image" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{item.title}}</h5>

@@ -46,6 +46,11 @@ export class PlayerAudioComponent implements OnInit {
       this.playShow = true;
       this.pauseShow = false;
       this.audio.play();
+      if (this.audio.currentTime == 0) {
+        debugger
+        this.playShow = false;
+        this.pauseShow = true;
+      }
     }
 
   }
