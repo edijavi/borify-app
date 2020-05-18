@@ -1,29 +1,34 @@
-<div class="col-lg-6">
+<div class="all borify">
   <h1>Register</h1>
   <div *ngIf="alertRegister">
     <div class="alert alert-info" role="alert"><strong></strong>{{alertRegister}}</div>
   </div>
-  <form #registerForm="ngForm" (ngSubmit)="onSubmitRegister()" action="#" class="col-md-10">
+  <form #registerForm="ngForm" (ngSubmit)="onSubmitRegister()" action="#" class="inputlar">
     <p>
       <label for="">Name</label>
-      <input type="text" #name="ngModel" name="name" [(ngModel)]="userRegister.name" class="form-control" required>
+      <input type="text" #name="ngModel" name="name" [(ngModel)]="userRegister.name" required>
       <span *ngIf="!name.valid && name.touched">Name is required</span>
     </p>
     <p>
       <label for="">Surname</label>
-      <input type="text" #surname="ngModel" name="surname" [(ngModel)]="userRegister.surname" class="form-control" required>
+      <input type="text" #surname="ngModel" name="surname" [(ngModel)]="userRegister.surname" required>
       <span *ngIf="!surname.valid && surname.touched">Surname is required</span>
     </p>
     <p>
       <label for="">email</label>
-      <input type="text" #email="ngModel" name="email" [(ngModel)]="userRegister.email" class="form-control" required>
+      <input type="text" #email="ngModel" name="email" [(ngModel)]="userRegister.email" required>
       <span *ngIf="!email.valid && email.touched">Email is required</span>
     </p>
     <p>
       <label for="">Password</label>
-      <input type="password" #password="ngModel" name="password" [(ngModel)]="userRegister.password" class="form-control" required>
+      <input type="password" #password="ngModel" name="password" [(ngModel)]="userRegister.password" required>
       <span *ngIf="!password.valid && password.touched">Password is required</span>
     </p>
-    <input type="submit" value="Register" class="btn btn-primary">
+    <div class="buttons">
+      <button type="submit">Register</button>
+    </div>
   </form>
+  <div class="borify pad">
+    <a class="link" href="https://github.com/edijavi/borify-app.git">Powered by David and Edison</a>
+  </div>
 </div>
