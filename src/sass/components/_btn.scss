@@ -4,6 +4,7 @@
   color:#fff;
   outline: none;
   margin-right: 45px;
+  transition: 0.15s ease-in-out;
 }
 
 .btn:hover {
@@ -22,7 +23,7 @@
   color: #fff;
   fill: none;
   outline: none;
-
+  transition: 0.15s ease-in-out;
 }
 
 .btn-icon:hover {
@@ -44,6 +45,7 @@
   color: #fff;
   outline: none;
   padding: 8px 30px;
+  transition: 0.15s ease-in-out;
 }
 
 .btn-icon--circle:hover  {
@@ -69,6 +71,11 @@ button:not(:disabled){
   background-color: transparent;
   border: 0;
   outline: none;
+  transition: 0.15s ease-in-out;
+}
+
+.btn-avatar:hover {
+  transform: scale(0.95);
 }
 
 .btn-avatar p {

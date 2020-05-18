@@ -46,11 +46,6 @@ export class PlayerAudioComponent implements OnInit {
       this.playShow = true;
       this.pauseShow = false;
       this.audio.play();
-      if (this.audio.currentTime == 0) {
-        debugger
-        this.playShow = false;
-        this.pauseShow = true;
-      }
     }
 
   }
@@ -72,12 +67,7 @@ export class PlayerAudioComponent implements OnInit {
       this.audio.volume = this.audio.volume + 0.1;
     }
   }
-  // Función que baja el volume del elemento audio.
-  audioturnDownVolume() {
-    if (this.audio.volume > 0) {
-      this.audio.volume = this.audio.volume - 0.1;
-    }
-  }
+
 
   mutedVolume() {
     if (!this.audio.muted) {
