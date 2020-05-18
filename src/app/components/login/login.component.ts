@@ -27,6 +27,7 @@ export class LoginComponent implements OnInit {
     console.log(this.token);
   }
 
+
   public onSubmit() {
     console.log(this.user);
     // Conseguir los datos del usuario identificado
