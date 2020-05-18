@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
+Api: https://borify-api-rest.herokuapp.com/api
+routes: Check the [borify-api repo](https://github.com/edijavi/borify-api.git)
+Test the app: edison@edison.es // edison 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
