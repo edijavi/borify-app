@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
           alert('User not identified');
         } else {
           // Crear elemento en el localstorage para tener al usuario en sesión
-          localStorage.setItem('indentity', JSON.stringify(identity));
+          localStorage.setItem('identity', JSON.stringify(identity));
 
           // Conseguir el token para enviarselos a cada peticion http
           let dataRegister:any = {};
