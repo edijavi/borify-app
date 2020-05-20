@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpResponse, HttpHeaders} from '@angular/common/http';
+import { HttpClient, HttpResponse, HttpHeaders } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
 import { environment } from 'src/environments/environment';
@@ -57,6 +57,7 @@ export class UserService {
     }
     return this.token;
   }
+
 }
 
 

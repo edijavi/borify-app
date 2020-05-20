@@ -75,14 +75,8 @@ export class CardAlbumComponent implements OnInit {
 
   ];
 
-  constructor(private artist: ArtistsService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.artist.getArtist().subscribe(response =>{
-      debugger
-      this.listAlbums = response;
-    });
-  }
-
+  ngOnInit(): void {}
 
 }
